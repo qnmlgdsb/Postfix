@@ -2,10 +2,15 @@ Postfix
 =======
 安装过程:
 1、下载安装包放到你的安装目录，比如/root
+
 2、su
+
 3、cd /root
+
 4、tar xvfz postfix.tar.gz
+
 5、cd postfix
+
 6、./postfix.sh
 
 根据提示输入管理员邮件帐号名称，postfix的mysql的数据库帐号和密码，安装完成后浏览器进入
@@ -15,8 +20,12 @@ http://www.yourdomain.com/postfixadmin/
 服务器设置：将mail.domain1.com，mail.domain2.com...解析到你服务器的IP地址
 
 客户端设置
+
 接收服务器和发送服务器：mail.domain.com
-用户名：youraccount@domain.com(必须是邮件地址，而不是youraccount)
+
+用户名：youraccount@domain.com
+(必须是邮件地址，而不是youraccount)
+
 密码：yourpassword
 发送选项：服务器需要验证
 
