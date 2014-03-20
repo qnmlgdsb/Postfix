@@ -49,7 +49,11 @@ http://www.yourdomain.com/postfixadmin/
 
 （注：脚本中有涉及mysql的路径，建议军哥的LNMP部署linux系统，否则可能需要修改postfix.sh里的mysql路径）
 版本信息：
+
 cyrus-sasl-2.1.23
+
 dovecot-2.0.8
+
 postfix-2.7.2
+
 postfixadmin-2.3.2
