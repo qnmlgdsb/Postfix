@@ -15,13 +15,21 @@ Postfix
 6、./postfix.sh
 
 根据提示输入管理员邮件帐号名称，
+
 postfix的mysql的数据库帐号和密码，
+
 安装完成后浏览器进入
+
 http://www.yourdomain.com/postfixadmin/
+
 就可以用管理员帐号（密码admin，进入后修改）管理了，
+
 可以随意添加域名和里面的邮件账户，
+
 如果要设置转发，
+
 可以以设置的mysql的数据库帐号和密码进入postfix数据库，
+
 设置alias表的goto字段即可
 
 服务器设置：将mail.domain1.com，mail.domain2.com...解析到你服务器的IP地址
@@ -37,3 +45,11 @@ http://www.yourdomain.com/postfixadmin/
 发送选项：服务器需要验证
 
 该邮件系统仅支持pop3，如果要想支持imap，你可能需要修改postfix.sh安装脚本，重新安装，请自己琢磨
+
+
+（注：脚本中有涉及mysql的路径，建议军哥的LNMP部署linux系统，否则可能需要修改postfix.sh里的mysql路径）
+版本信息：
+cyrus-sasl-2.1.23
+dovecot-2.0.8
+postfix-2.7.2
+postfixadmin-2.3.2
